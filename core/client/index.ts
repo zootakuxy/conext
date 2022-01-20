@@ -152,8 +152,6 @@ function start(){
             }))
         })
 
-
-
         next.once("data", data => {
             let response = data.toString("utf8");
             console.log( "connection:data", response );
