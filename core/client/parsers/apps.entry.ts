@@ -1,5 +1,4 @@
 import {AppEntry, configs, HostEntry} from "../../configs";
-import {setHosts} from "../hosts";
 
 export function resolveHost( entry:AppEntry ){
     if( !entry.address ) return;

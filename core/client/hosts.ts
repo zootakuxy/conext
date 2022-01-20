@@ -1,6 +1,7 @@
 import hostile from "hostile";
 import {HostEntry} from "../configs";
 
+
 export function setHosts( host:HostEntry){
     hostile.set(host.address, host.server, function (err) {
         if (err) {
